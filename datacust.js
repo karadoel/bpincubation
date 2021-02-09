@@ -26,3 +26,4 @@ var tips = [
 	'Try to answer in 2 to 3 sentences.',
 	'Answer like you would in a conversation, this is not a presentation.',
 ];
+
