@@ -18,6 +18,8 @@ var q = [
   	'What are the response times for customer issues or bug fixes?', 
   	'What new features will you build next?', 
   	'How soon can we sign up?', 
+	'Why should I buy your product/service?',
+	
 ];
 
 // Tips
@@ -26,3 +28,4 @@ var tips = [
 	'Try to answer in 2 to 3 sentences.',
 	'Answer like you would in a conversation, this is not a presentation.',
 ];
+
