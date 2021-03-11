@@ -1,5 +1,5 @@
 bp Incubation
 ===
 
-bp Incubation originates, nurtures, grows, and launches autonomous start-up teams.  
+bp Incubation launches business from inception to having fully autonomous teams with enough recurring revenue to make metric driven decisions.  
 Pitch simulator is a tool to upskill residents to nail an investor or customer pitch.
