@@ -7,7 +7,7 @@ var q = [
 	'What are the benefits that users are most excited about?', 
 	'Have you attracted other customers in my industry?', 
  	'How is your product reliable?', 
- 	'How do keep my data secure?', 
+ 	'How do you keep my data secure?', 
  	'Does your product integrate with other systems that customers use?', 
  	'Does the product require user training?', 
  	'How is pricing structured? Are there fees for support or upgrades?', 
