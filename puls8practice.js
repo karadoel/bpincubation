@@ -17,7 +17,7 @@ var q = [
 'When do we expect to make our first sale or offering of service?',
 'What is the business team make-up? Who does what key roles and why?',
 'Who can get us in front of key clients?',
-'Can we provide a detailed breakdown of the cost production and development?',
+'Can we provide a detailed breakdown of the cost production/development?',
 'What is the cost of customer acquisition and the expected lifetime value of the customer?',
 'When would a customer become profitable for us?',
 'Where do you think you will be in 6 months time?',
