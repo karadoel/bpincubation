@@ -50,35 +50,29 @@ var q = [
 	'What domain expertise do you have?',
 	'Who are your competitors?',
 	'Who might become competitors?',
-	 
 	'What competition do you fear most?',
 	'What is your distribution strategy?',
-	
-	
-	
-	
 	'What will you do if we don&#39;t fund you?',
-	
-	
-	 
 	'Are you open to changing your idea? ',
-	 
 	'Tell us about a tough problem you solved?',
 	'In what ways are you resourceful?',
-
-	
-	 
-	 
 	'What&#39;s the worst thing that has happened?',
 	'What&#39;s the biggest mistake you have made?',
 	'What is your burn rate?',
 	'How long can you go before funding?',
 	'What is the next step with the product evolution?',
-	
 	'Who would be your next hire?',
-	
 	'How do you know people want this?',
-	'What will prevent others from becoming fast followers?'
+	'What will prevent others from becoming fast followers?',
+	'What barriers to entry are there for your business?',
+	'When will I get my money back?',
+	'How long does customer acquisition take?',
+	'What is your customer retention strategy?',
+	'What is your key personnel risk?',
+	'What are the key drivers of business performance?',
+	'What change will you make to improve your business performance?',
+	'Why am I the right investor for your business?',
+
 ];
 
 // Tips
