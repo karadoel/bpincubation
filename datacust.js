@@ -19,6 +19,18 @@ var q = [
   	'What new features will you build next?', 
   	'How soon can we sign up?', 
 	'Why should I buy your product/service?',
+	'Why do I need your product?',
+	'What changes to my current systems are required to accommodate your APIs and new business processes?',
+	'I need to simplify my business, what systems or processes will your product/service replace?',
+	'Why did you choose this specific technology?',
+	'What is the problem you are trying to solve?',
+	'Which of my current priorities do you think your product/service addresses?',
+	'Why do you think your product/service will work for a customer like me?',
+	'What does it cost me in internal time/resources to bring your product onstream?',
+	'Why do I need your product?',
+	'What sort of training and onboarding is required for my team before they can use your product?',
+	
+	
 	
 ];
 
