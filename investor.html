@@ -9,7 +9,7 @@
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="functions.js"></script>
 <script type="text/javascript">
-var timer = 15;
+var timeForEachQuestion = 10;
 
 
 // Randomise Questions & Tips
@@ -22,9 +22,8 @@ q.push('done');
 
 
 $(document).ready(function(){
-	next_q();
 	timer_tick();
-	display_tip();
+	next_q();
 });
 
 
@@ -70,6 +69,9 @@ $(document).keypress(function(e) {
 
 
 <!-- Timer -->
+<div id="start-button-container">
+	<button id="start">Start</button>
+</div>
 <div id="timer">
 	Timer
 </div>
@@ -104,6 +106,15 @@ $(document).keypress(function(e) {
 	<p>Created by bp incubation</p>
 	<img src="logo_fontgreen.svg" width="100" height="75" />
 </div>
+
+<script>
+	$('#start').click(function(){
+		$('#timer').show();
+		timer_restart();
+		$(this).hide();
+	});
+	
+</script>
 
 </body>
 </html>

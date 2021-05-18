@@ -17,10 +17,39 @@ a:hover {color: #336699; text-decoration: underline;}
 	text-align: center;
 	line-height: 84px;
 }
+
+#start-button-container {
+	width: 120px;
+	margin: 0 auto 50px auto;
+	color: #666;
+	font-size: 24px;
+	text-align: center;
+}
+
+#start {
+	display: inline-block;
+    margin: 20px; /* space between buttons */
+    background: #2b873f; /* background color */
+    color: #FFFFFF; /* text color */
+    font-size: 1.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: bold;
+    border-radius: 50px; /* rounded corners */
+    padding: 8px 16px; /* space around text */
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#start:hover {
+    background: #333;
+    color: #FFFFFF;
+}
+
 #timer {
 	width: 120px;
 	margin: 0 auto 50px auto; padding: 4px 0;
-	
+	display: none;
 	color: #666;
 	border: 2px #999 solid;
 	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
