@@ -6,13 +6,13 @@
 }
 
 .outer-container {
-  width: 1440px;
+  max-width: 1440px;
   height: 100vh;
   padding: 60px 20px 20px 20px;
 }
 
 .questionText {
-  width: 1103px;
+  width: 100wh;
   margin: 25px 19.6px 5px 0;
   font-family: Inter;
   font-size: 90px;
