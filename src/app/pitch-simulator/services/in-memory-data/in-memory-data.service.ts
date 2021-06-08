@@ -41,6 +41,7 @@ export class InMemoryDataService implements InMemoryDbService {
   private formatQuestionsData(questionsArray: Array<string>): Array<Question> {
     let questions: Array<Question> = [];
     let id = 1;
+    questionsArray = this.shuffle(questionsArray);
     questionsArray.forEach((questionText) => {
       questions.push({
         id: id++,
@@ -53,6 +54,7 @@ export class InMemoryDataService implements InMemoryDbService {
   private formatTipsData(tipsArray: Array<string>): Array<Tip> {
     let tips: Array<Tip> = [];
     let id = 1;
+    tipsArray = this.shuffle(tipsArray);
     tipsArray.forEach((tipText) => {
       tips.push({
         id: id++,
@@ -60,5 +62,23 @@ export class InMemoryDataService implements InMemoryDbService {
       });
     });
     return tips;
+  }
+  
+  private shuffle(array: Array<any>): Array<any> {
+    var currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
   }
 }
