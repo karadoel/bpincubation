@@ -1,5 +1,8 @@
 // Questions
 var q = [
+	'So what are you working on?',
+	'Why did you pick this idea to work on?',
+	'What domain expertise do you have?',
 	'What do you understand that others don&#39;t?',
 	'Why will you succeed?',
 	'How big an opportunity is there?',
@@ -13,7 +16,6 @@ var q = [
 	'How are you understanding customer needs?',
 	'How will you get users?',
 	'Who will your next hire be?',
-	'So what are you working on?',
 	'How does your product work?',
 	'How is your product different?',
 	'What are you going to do next?',
@@ -39,8 +41,6 @@ var q = [
 	'What has surprised you about user behaviour?',
 	'What&#39;s an impressive thing you have done?',
 	'What do you understand about your users?',
-	'Why did you pick this idea to work on?',
-	'What domain expertise do you have?',
 	'Who are your competitors?',
 	'Who might become your competitors?',
 	'What competition do you fear most?',
