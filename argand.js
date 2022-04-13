@@ -1,6 +1,6 @@
 // Questions
 var q = [
-	'Why did you choose this specific technology?',
+  'Why did you choose this specific technology?',
   'Is this product compliant with sharia law?',
   'What is the problem you are trying to resolve?',
   'We have just spent hundreds of millions rebuilding our global P2P /O2C systems and processes, why should we go through another change now?',
@@ -15,26 +15,27 @@ var q = [
   'Why should I pay my suppliers instantaneously?',
   'How does this product help buyers get away from the old way of working of putting pressure on suppliers?',
   'What changes to my current SoR are required to accommodate Argand APIs and new business processes?',
-	'What barriers to entry are there for your business?',
-	'When will I get my money back?',
-	'How long does customer acquisition take?',
-	'What is your customer retention strategy?',
-	'What is your key personnel risk?',
-	'What are the key drivers of business performance?',
-	'What change will you make to improve your business performance?',
-	'Why am I the right investor for your business?',
+  'What barriers to entry are there for your business?',
+  'When will I get my money back?',
+  'How long does customer acquisition take?',
+  'What is your customer retention strategy?',
+  'What is your key personnel risk?',
+  'What are the key drivers of business performance?',
+  'What change will you make to improve your business performance?',
+  'Why am I the right investor for your business?',
   'What does it cost me in internal time/resources to bring your product onstream?',
   'Why do I need your product?',
   'How much/what sort training/onboarding do I need do give my team before they can use your product?',
-
+  'Do you offer a trial period?',
+  'What is your pricing model?',
 ];
 
 // Tips
 var tips = [
-	'Try to answer using new language each time you answer the question.',
-	'Try to have quick and concise answers.',
-	'Try to answer in 2 to 3 sentences.',
-	'Answer like you would in a conversation, this is not a presentation.',
-	'When talking to a potential investor, be substantive, and get straight to the point.',
-
+  'Try to answer using new language each time you answer the question.',
+  'Try to have quick and concise answers.',
+  'Try to answer in 2 to 3 sentences.',
+  'Avoid buzzwords and extremely specific jargon.',
+  'Answer like you would in a conversation, this is not a presentation.',
+  'When talking to a potential investor, be substantive, and get straight to the point.',
 ];
