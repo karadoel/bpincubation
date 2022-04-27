@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+.root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.outer-container {
+  width: 1440px;
+  height: 1000px;
+  padding: 106px 62px 52px 96px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: #fff2cb;
+}
+
+.questionText {
+  width: 1103px;
+  margin: 25px 19.6px 5px 0;
+  font-family: Inter;
+  font-size: 90px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
+
+.question {
+  width: 591px;
+  height: 29px;
+  margin: 0 531.6px 25px 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
+
+.pro-tip {
+  width: 591px;
+  height: 29px;
+  margin: 80px 528.6px 56px 6px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
+
+.links {
+  background-color: #272727;
+  width: 243.7px;
+  height: 60px;
+  margin: 56px 12.3px 168px 0;
+  padding: 19.2px 15.2px 19.8px 16px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.timer .countdown {
+  width: 351px;
+  height: 111px;
+  padding: 35px 23px 37px 22px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #272727;
+  border-color: #272727;
+}
+
+.timer-toggle-button {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 0.01em;
+  padding: 0px;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100wh;
+}
+.keyboard {
+  margin-top: 20px;
+}
+.keyboard-shortcuts {
+  width: 63px;
+  height: 26px;
+  margin: 0 7px 0 0;
+  padding: 3px 3px 2px;
+  border-radius: 13px;
+  background-color: #272727;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.keyboard-command {
+  margin: 5px 18px 4px 7px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.logo-right {
+  margin-left: auto;
+}
+
+.logo-right img {
+  width: 159.4px;
+  height: 68px;
+  margin: 3px 0 13px 19.6px;
+}
