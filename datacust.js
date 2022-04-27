@@ -20,7 +20,7 @@ var q = [
   	'What new features will you build next?', 
   	'How soon can we sign up?', 
 	'Why do I need your product?',
-	'What changes to my current systems are required?,
+	'What changes to my current systems are required?',
 	'I need to simplify my business. What systems or processes will you replace?',
 	'Why did you choose this specific technology?',
 	'What is the problem you&#39;re trying to solve?',
