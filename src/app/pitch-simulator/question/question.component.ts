@@ -64,19 +64,36 @@ export class QuestionComponent implements OnInit {
   }
 
   private validateQuestionAndTip(): void {
-    let totalQuestions =
-      this.audience === 'investors'
-        ? QuestionsData.INVESTOR_QUESTIONS.length
-        : QuestionsData.CUSTOMER_QUESTIONS.length;
+    let totalQuestions;
+    let totalTips; 
+    switch (this.audience) {
+      default: 
+      case "investors": 
+        totalQuestions = 
+          QuestionsData.INVESTOR_QUESTIONS.length;
+        totalTips = 
+          QuestionsData.INVESTOR_TIPS.length;
+        break; 
+      case "customers": 
+        totalQuestions = 
+          QuestionsData.CUSTOMER_QUESTIONS.length;
+        totalTips = 
+          QuestionsData.CUSTOMER_TIPS.length;
+        break; 
+      case "live": 
+        totalQuestions = 
+          QuestionsData.LIVE_QUESTIONS.length;
+        totalTips = 
+          QuestionsData.LIVE_TIPS.length;
+        break; 
+    }
+    
     this.id %= totalQuestions;
     if (this.id == 0) {
       this.id = 1;
     }
 
-    let totalTips =
-      this.audience === 'investors'
-        ? QuestionsData.INVESTOR_TIPS.length
-        : QuestionsData.CUSTOMER_TIPS.length;
+    
     this.tipId = this.id % totalTips;
     if (this.tipId == 0) {
       this.tipId = 1;
