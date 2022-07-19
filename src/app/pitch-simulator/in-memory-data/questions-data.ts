@@ -116,4 +116,16 @@ export class QuestionsData {
     "Try to answer in 2 to 3 sentences.",
     "Answer like you would in a conversation, this is not a presentation.",
   ];
+  
+  public static LIVE_QUESTIONS = [
+    "Answer live audience questions",
+  ];
+  
+  public static LIVE_TIPS = [
+    "Try to answer using new language each time you answer the question.",
+    "Try to have quick and concise answers.",
+    "Try to answer in 2 to 3 sentences.",
+    "Answer like you would in a conversation, this is not a presentation.",
+  ];
+    
 }
