@@ -15,15 +15,21 @@ export class InMemoryDataService implements InMemoryDbService {
     const questions_customers = this.formatQuestionsData(
       QuestionsData.CUSTOMER_QUESTIONS
     );
+     const questions_live = this.formatQuestionsData(
+      QuestionsData.LIVE_QUESTIONS
+    );
 
     const tips_investors = this.formatTipsData(QuestionsData.INVESTOR_TIPS);
     const tips_customers = this.formatTipsData(QuestionsData.CUSTOMER_TIPS);
+    const tips_live = this.formatTipsData(QuestionsData.LIVE_TIPS);
 
     return {
       questions_investors,
       questions_customers,
+      questions_live,
       tips_investors,
       tips_customers,
+      tips_live,
     };
   }
 
