@@ -118,7 +118,7 @@ export class QuestionsData {
   ];
   
   public static LIVE_QUESTIONS = [
-    "Answer live audience questions",
+    "What's something the audience doesn't know about your startup?",
   ];
   
   public static LIVE_TIPS = [
