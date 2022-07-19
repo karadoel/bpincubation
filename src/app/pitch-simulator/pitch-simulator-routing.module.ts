@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'investors', redirectTo: 'question/investors/1', pathMatch: 'full' },
   { path: 'customers', redirectTo: 'question/customers/1', pathMatch: 'full' },
+  { path: 'live', redirectTo: 'question/live/1', pathMatch: 'full' },
   { path: 'question/:audience/:id', component: QuestionComponent },
 ];
 
